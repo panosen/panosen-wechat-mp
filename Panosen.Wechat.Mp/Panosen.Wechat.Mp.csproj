@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net472;netstandard2.0</TargetFrameworks>
+        <AssemblyName>Panosen.Wechat.Mp</AssemblyName>
+        <RootNamespace>Panosen.Wechat.Mp</RootNamespace>
+        <Version>0.1.0</Version>
+        <Authors>harriszhang@live.cn</Authors>
+        <Company>harriszhang@live.cn</Company>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <DocumentationFile>bin\$(Configuration)\Panosen.Wechat.Mp.xml</DocumentationFile>
+        <PackageIcon>panosen.png</PackageIcon>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/panosen/panosen-wechat-mp</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Panosen.Time" Version="1.1.0" />
+        <PackageReference Include="Panosen.Toolkit" Version="1.6.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\panosen.png" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+</Project>
